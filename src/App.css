@@ -1,0 +1,29 @@
+.appContainer {
+  background-image: url('https://t4.ftcdn.net/jpg/02/32/16/07/240_F_232160763_FuTBWDd981tvYEJFXpFZtolm8l4ct0Nz.jpg'); /* You can replace this with a local file as well */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contentContainer {
+  background-color: rgba(255, 255, 255, 0.8); /* Light background for better readability */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+/* Additional styling for mobile responsiveness */
+@media (max-width: 768px) {
+  .contentContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+}
